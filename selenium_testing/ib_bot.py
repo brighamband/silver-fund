@@ -20,8 +20,7 @@ class IBBot():
         system('start cmd /k \"cd C:/Coding/SilverFund/interactive-brokers-python-api/resources/clientportal.beta.gw & "bin/run.bat" "root/conf.yaml"\"')
 
         # start up web driver
-        self.driver = webdriver.Chrome(
-            'C:\\Coding\SilverFund\selenium_testing\chromedriver', options=options)
+        self.driver = webdriver.Chrome('C:\\Coding\SF\silverfund\selenium_testing\chromedriver'), options = options)
 
     def login(self):
         self.driver.get('https://localhost:5000')
@@ -49,7 +48,7 @@ class IBBot():
 
 ## SCRIPT ##
 
-bot = IBBot()
+bot=IBBot()
 bot.login()
 sleep(10)
 bot.auth_verify()

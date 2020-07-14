@@ -3,9 +3,9 @@ from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 
 # driver functions
-driver = webdriver.Chrome() # add path in ()
+driver = webdriver.Chrome()  # add path in ()
 driver.get('')  # add url in ''
-assert "" in driver.title # add keyword check in "" for a website element
+assert "" in driver.title  # add keyword check in "" for a website element
 
 
 # find element functions
@@ -23,7 +23,4 @@ elem.send_keys(Keys.ENTER)  # simulate pressing the enter button
 elem.clear()    # clear text in an element
 
 
-
-
-driver.close() # close driver
-
+driver.close()  # close driver
