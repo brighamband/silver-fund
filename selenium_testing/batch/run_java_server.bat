@@ -1,3 +1,3 @@
-cd "C:\Coding\SilverFund\interactive-brokers-python-api\resources\clientportal.gw"
+cd "C:\Coding\SF\silverfund\interactive-broker-python-api\resources\clientportal.beta.gw"
 cls
 "bin/run.bat" "root/conf.yaml"
